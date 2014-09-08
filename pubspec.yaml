@@ -1,4 +1,9 @@
-name: ace-editor
+name: ace_polymer
 dependencies:
+  ace: '>=0.5.4'
   browser: '>=0.10.0'
   polymer: '>=0.13.0'
+transformers:
+- polymer:
+    entry_points:
+    - web/demo/index.html

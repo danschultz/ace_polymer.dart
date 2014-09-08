@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="packages/web_components/platform.js"></script>
+    <script src="packages/web_components/dart_support.js"></script>
+
+    <!-- link rel="import" href="path_to_html_import.html" -->
+    <link rel="import" href="packages/ace_polymer/ace_editor.html">
+  </head>
+  <body unresolved>
+    <ace-editor>
+    function foo(items) {
+      var x = "All this is syntax highlighted";
+      return x;
+    }
+    </ace-editor>
+
+    <script type="application/dart" src="index.dart"></script>
+  </body>
+</html>
