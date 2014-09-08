@@ -1,0 +1,4 @@
+name: ace-editor
+dependencies:
+  browser: '>=0.10.0'
+  polymer: '>=0.13.0'
